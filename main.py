@@ -5,6 +5,7 @@ import tempfile
 import os.path
 import md5
 from synth import Synth
+
 app = Flask(__name__)
 synth = Synth()
 MESSAGES = '/tmp/messages.txt'
